@@ -1,3 +1,145 @@
-# Kapitel 1 - Krafter
+# Storheter och enheter
 
-Här är lite information om krafter..
+**Storheter** och **enheter** är grundläggande begrepp inom fysiken och hjälper oss att mäta och beskriva olika fysikaliska fenomen. Här går vi igenom grundenheterna i SI-systemet och några vanliga härledda enheter.
+
+### Storheter och deras enheter
+En **storhet** är något som går att mäta, exempelvis längd, tid eller massa. Till varje storhet finns en **enhet**, vilket är måttet vi använder för att kvantifiera storheten. I SI-systemet (Internationella måttenhetssystemet) finns sju **grundenheter** som är utgångspunkten för alla andra enheter.
+
+## Grundenheter i SI-systemet
+| **Storhet**         | **Enhet**    | **Enhetsbeteckning** | **Storhetsbeteckning** |
+|---------------------|--------------|----------------------|------------------------|
+| Längd               | Meter        | m                    | l                      |
+| Massa               | Kilogram     | kg                   | m                      |
+| Tid                 | Sekund       | s                    | t                      |
+| Elektrisk ström     | Ampere       | A                    | I                      |
+| Termodynamisk temperatur | Kelvin    | K                    | T                      |
+| Ämnesmängd          | Mol          | mol                  | n                      |
+| Ljusstyrka          | Candela      | cd                   | Iv                     |
+
+## Härledda enheter
+De härledda enheterna bygger på kombinationer av grundenheterna. Här är några av de vanligaste härledda enheterna och deras beteckningar:
+
+| **Storhet**         | **Enhet**        | **Enhetsbeteckning** | **Storhetsbeteckning** |
+|---------------------|------------------|----------------------|------------------------|
+| Hastighet           | Meter per sekund | m/s                  | v                      |
+| Acceleration        | Meter per sekundkvadrat | m/s²            | a                      |
+| Kraft               | Newton           | N = kg·m/s²          | F                      |
+| Energi              | Joule            | J = N·m = kg·m²/s²   | E                      |
+| Effekt              | Watt             | W = J/s = kg·m²/s³   | P                      |
+| Tryck               | Pascal           | Pa = N/m² = kg/m·s²  | p                      |
+| Laddning            | Coulomb          | C = A·s              | Q                      |
+| Spänning            | Volt             | V = W/A = kg·m²/s³·A | U eller V              |
+| Resistans           | Ohm              | Ω = V/A = kg·m²/s³·A²| R                      |
+
+
+### Skillnaden mellan enhetsbeteckning och storhetsbeteckning
+
+Inom fysiken använder vi både **enhetsbeteckningar** och **storhetsbeteckningar** för att uttrycka och mäta olika fysikaliska fenomen. Men vad är egentligen skillnaden?
+
+### Storhetsbeteckning
+**Storhetsbeteckningen** är den symbol vi använder för att representera en **storhet**, alltså vad vi mäter. Den anger själva egenskapen som mäts, till exempel längd, tid eller kraft. Storhetsbeteckningen är vanligtvis en bokstav som förklarar vilken typ av fysikalisk storhet vi talar om.
+
+**Exempel på storhetsbeteckningar:**
+- **l** för längd
+- **m** för massa
+- **t** för tid
+- **F** för kraft
+- **v** för hastighet
+
+### Enhetsbeteckning
+**Enhetsbeteckningen** är symbolen för den **enhet** vi använder för att mäta en storhet. Enheten beskriver hur vi mäter storheten i fråga, och gör det möjligt att kvantifiera den. Varje storhet har en motsvarande enhet som används för att uttrycka ett specifikt värde.
+
+**Exempel på enhetsbeteckningar:**
+- **m** för meter (längd)
+- **kg** för kilogram (massa)
+- **s** för sekund (tid)
+- **N** för newton (kraft)
+- **m/s** för meter per sekund (hastighet)
+
+### Exempel som visar skillnaden
+Om vi tittar på storheten **längd**:
+- Storhetsbeteckningen för längd är **l**.
+- Enhetsbeteckningen för längd är **m** (meter).
+
+För **kraft**:
+- Storhetsbeteckningen för kraft är **F**.
+- Enhetsbeteckningen för kraft är **N** (newton).
+
+
+### Exempel på användning
+- **Hastighet** beskriver hur snabbt något rör sig och mäts i meter per sekund (**m/s**).
+- **Kraft** mäts i newton (**N**) och anger hur mycket något påverkas av en kraft, t.ex. när du trycker på något.
+- **Energi** mäts i joule (**J**) och är mängden arbete som utförs, exempelvis när du lyfter ett föremål.
+
+### Varför är enheter viktiga?
+Enheter gör det möjligt att kommunicera mätningar på ett standardiserat sätt. Genom att använda samma enheter kan vi säkerställa att våra mätningar är jämförbara, oavsett var eller av vem de görs.
+
+Så, grundenheterna är själva byggstenarna i alla fysikaliska beräkningar, medan de härledda enheterna bygger på dessa och används för att beskriva mer specifika storheter som kraft, energi och hastighet.
+
+# Värdesiffror
+
+**Värdesiffror** är siffrorna i ett mätvärde som anger hur noggrant eller exakt en mätning är. De hjälper oss att visa vilken osäkerhet som finns i mätresultatet.
+
+## Vad är värdesiffror?
+Värdesiffror består av alla siffror i ett tal som faktiskt betyder något när vi beskriver ett mätvärde. De inkluderar alla siffror som inte är noll, samt eventuella nollor som är betydelsefulla (t.ex. mellan andra siffror eller efter decimaltecknet).
+
+**Exempel på värdesiffror:**
+- 123 har **3 värdesiffror**.
+- 0,045 har **2 värdesiffror** (de två första nollorna är bara platshållare).
+- 50,0 har **3 värdesiffror** (den sista nollan är viktig eftersom den visar noggrannheten).
+
+## Varför är värdesiffror viktiga?
+Värdesiffror visar hur noggrant vi kan mäta något. När vi gör beräkningar med mätvärden måste vi vara noggranna med att inte ge ett resultat fler värdesiffror än vad de ingående mätningarna tillåter.
+
+## Regler för värdesiffror:
+1. Alla icke-noll-siffror är värdesiffror.
+2. Nollor mellan siffror är värdesiffror (t.ex. 1003 har 4 värdesiffror).
+3. Nollor före första icke-noll-siffran är **inte** värdesiffror (t.ex. 0,0025 har 2 värdesiffror).
+4. Nollor efter decimaltecknet **är** värdesiffror (t.ex. 2,50 har 3 värdesiffror).
+
+Genom att använda rätt antal värdesiffror ger vi ett tydligare och mer korrekt resultat i våra mätningar och beräkningar.
+
+# Potenser, prefix och grundpotensform
+
+För att enkelt hantera mycket stora eller små tal använder vi ofta **potenser**, **prefix** och **grundpotensform** i fysik och matematik. Här förklarar vi vad de innebär och hur de används.
+
+## Potenser
+En **potens** är ett sätt att skriva tal som är upphöjda till ett visst antal gånger. Exponenterna visar hur många gånger vi ska multiplicera ett tal med sig självt.
+
+**Exempel på potenser:**
+- \( 10^3 = 10 \times 10 \times 10 = 1000 \)
+- \( 10^{-2} = 1/(10 \times 10) = 0,01 \)
+
+## Grundpotensform
+**Grundpotensform** används för att skriva mycket stora eller små tal som en produkt av ett tal mellan 1 och 10 multiplicerat med en tiopotens.
+
+**Form:**
+\[
+a \times 10^n
+\]
+Där \(a\) är ett tal mellan 1 och 10, och \(n\) är ett heltal som anger tiopotensen.
+
+**Exempel:**
+- 5000 skrivs som \( 5,0 \times 10^3 \)
+- 0,00042 skrivs som \( 4,2 \times 10^{-4} \)
+
+### Varför använda grundpotensform?
+Grundpotensform gör det lättare att hantera extremt stora eller små tal. Det är ett kompakt sätt att skriva tal utan att använda långa rader av siffror.
+
+## Prefix
+**Prefix** förenklar tal genom att använda tiopotenser i kombination med enheter.
+
+### Vanliga prefix:
+| **Prefix** | **Symbol** | **Faktor**      | **Exempel**         |
+|------------|------------|-----------------|---------------------|
+| Giga       | G          | \( 10^9 \)      | 1 gigawatt (GW) = \( 10^9 \) watt |
+| Mega       | M          | \( 10^6 \)      | 1 megahertz (MHz) = \( 10^6 \) hertz |
+| Kilo       | k          | \( 10^3 \)      | 1 kilometer (km) = \( 10^3 \) meter |
+| Milli      | m          | \( 10^{-3} \)   | 1 millimeter (mm) = \( 10^{-3} \) meter |
+| Mikro      | µ          | \( 10^{-6} \)   | 1 mikrometer (µm) = \( 10^{-6} \) meter |
+| Nano       | n          | \( 10^{-9} \)   | 1 nanometer (nm) = \( 10^{-9} \) meter |
+
+### Exempel på användning
+- Avståndet till solen kan skrivas som \( 1,496 \times 10^8 \) km eller 149,6 miljoner kilometer.
+- En atomstorlek kan vara \( 1,2 \times 10^{-10} \) m, eller 0,12 nanometer (nm).
+
