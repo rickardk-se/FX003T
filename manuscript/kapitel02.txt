@@ -15,14 +15,14 @@ En **kraft** är en påverkan som kan ändra hastigheten på ett objekt (acceler
 ## Tyngdkraft (Gravitation)
 Den mest välbekanta kraften är **tyngdkraften**, även kallad gravitationskraften. Den drar alla objekt mot jordens centrum. På jordytan upplever vi denna kraft som vår **vikt**. Tyngdkraften beror på massan hos ett objekt och gravitationsfältets styrka.
 
-Tyngdkraften (`F_g`$) beräknas som:
+Tyngdkraften (`F_g`{format: latexmath}) beräknas som:
 ```latexmath
 F_g = m \cdot g
 ```
 
 Där:
-- `m`$ är objektets massa (i kilogram, kg)
-- `g`$ är tyngdaccelerationen (cirka `9,82 \, `\text{m/s}^2`$ på jorden
+- `m`{format: latexmath} är objektets massa (i kilogram, kg)
+- `g`{format: latexmath} är tyngdaccelerationen (cirka `9,82 \text{m/s}^2`{format: latexmath} på jorden)
 
 ## Tyngd vs Massa
 Det är lätt att förväxla **tyngd** och **massa**, men de är inte samma sak:

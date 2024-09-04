@@ -8,28 +8,28 @@ En **storhet** är något som går att mäta, exempelvis längd, tid eller massa
 ## Grundenheter i SI-systemet
 | **Storhet**         | **Enhet**    | **Enhetsbeteckning** | **Storhetsbeteckning** |
 |---------------------|--------------|----------------------|------------------------|
-| Längd               | Meter        | m                    | `l`$                   |
-| Massa               | Kilogram     | kg                   | `m`$                   |
-| Tid                 | Sekund       | s                    | `t`$                   |
-| Elektrisk ström     | Ampere       | A                    | `I`$                   |
-| Temperatur          | Kelvin       | K                    | `T`$                   |
-| Ämnesmängd          | Mol          | mol                  | `n`$                   |
-| Ljusstyrka          | Candela      | cd                   | `L`$                   |
+| Längd               | Meter        | m                    |  l                     |
+| Massa               | Kilogram     | kg                   |  m                     |
+| Tid                 | Sekund       | s                    |  t                     |
+| Elektrisk ström     | Ampere       | A                    |  I                     |
+| Temperatur          | Kelvin       | K                    |  T                     |
+| Ämnesmängd          | Mol          | mol                  |  n                     |
+| Ljusstyrka          | Candela      | cd                   |  L                     |
 
 ## Härledda enheter
 De härledda enheterna bygger på kombinationer av grundenheterna. Här är några av de vanligaste härledda enheterna och deras beteckningar:
 
 | **Storhet**         | **Enhet**        | **Enhetsbeteckning** | **Storhetsbeteckning** |
 |---------------------|------------------|----------------------|------------------------|
-| Hastighet           | Meter per sekund | m/s                  | `v`$                   |
-| Acceleration        | Meter per sekundkvadrat | m/s²          | `a`$                   |
-| Kraft               | Newton           | N = kg·m/s²          | `F`$                   |
-| Energi              | Joule            | J = N·m = kg·m²/s²   | `E`$                   |
-| Effekt              | Watt             | W = J/s = kg·m²/s³   | `P`$                   |
-| Tryck               | Pascal           | Pa = N/m² = kg/m·s²  | `p`$                   |
-| Laddning            | Coulomb          | C = A·s              | `Q`$                   |
-| Spänning            | Volt             | V = W/A = kg·m²/s³·A | `U`$ eller `V`$        |
-| Resistans           | Ohm              | Ω = V/A = kg·m²/s³·A²| `R`$                   |
+| Hastighet           | Meter per sekund | m/s                  |  v                     |
+| Acceleration        | Meter per sekundkvadrat | m/s²          |  a                     |
+| Kraft               | Newton           | N = kg·m/s²          |  F                     |
+| Energi              | Joule            | J = N·m = kg·m²/s²   |  E                     |
+| Effekt              | Watt             | W = J/s = kg·m²/s³   |  P                     |
+| Tryck               | Pascal           | Pa = N/m² = kg/m·s²  |  p                     |
+| Laddning            | Coulomb          | C = A·s              |  Q                     |
+| Spänning            | Volt             | V = W/A = kg·m²/s³·A |  U eller V             |
+| Resistans           | Ohm              | Ω = V/A = kg·m²/s³·A²|  R                     |
 
 
 ### Skillnaden mellan enhetsbeteckning och storhetsbeteckning
@@ -132,12 +132,12 @@ Grundpotensform gör det lättare att hantera extremt stora eller små tal. Det 
 ### Vanliga prefix:
 | **Prefix** | **Symbol** | **Faktor**      | **Exempel**         |
 |------------|------------|-----------------|---------------------|
-| Giga       | G          | `10^9`$         | 1 gigawatt (GW) = `10^9`$ watt |
-| Mega       | M          | `10^6`$         | 1 megahertz (MHz) = `10^6`$ hertz |
-| Kilo       | k          | `10^3`$         | 1 kilometer (km) = `10^3`$ meter |
-| Milli      | m          | `10^{-3}`$      | 1 millimeter (mm) = `10^{-3}`$ meter |
-| Mikro      | µ          | `10^{-6}`$      | 1 mikrometer (µm) = `10^{-6}`$ meter |
-| Nano       | n          | `10^{-9}`$      | 1 nanometer (nm) = `10^{-9}`$ meter |
+| Giga       | G          |  10^9           | 1 gigawatt (GW) = `10^9`$ watt |
+| Mega       | M          |  10^6           | 1 megahertz (MHz) = `10^6`$ hertz |
+| Kilo       | k          |  10^3           | 1 kilometer (km) = `10^3`$ meter |
+| Milli      | m          |  10^{-3}        | 1 millimeter (mm) = `10^{-3}`$ meter |
+| Mikro      | µ          |  10^{-6}        | 1 mikrometer (µm) = `10^{-6}`$ meter |
+| Nano       | n          |  10^{-9}        | 1 nanometer (nm) = `10^{-9}`$ meter |
 
 ### Exempel på användning
 - Avståndet till solen kan skrivas som `1,496 \times 10^8`$ km eller 149,6 miljoner kilometer.
