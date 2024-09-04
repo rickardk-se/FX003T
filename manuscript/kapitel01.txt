@@ -107,8 +107,8 @@ För att enkelt hantera mycket stora eller små tal använder vi ofta **potenser
 En **potens** är ett sätt att skriva tal som är upphöjda till ett visst antal gånger. Exponenterna visar hur många gånger vi ska multiplicera ett tal med sig självt.
 
 **Exempel på potenser:**
-- `10^3 = 10 \times 10 \times 10 = 1000`$
-- `10^{-2} = 1/(10 \times 10) = 0,01`$
+- `10^3 = 10 \times 10 \times 10 = 1000`{format: latexmath}
+- `10^{-2} = 1/(10 \times 10) = 0,01`{format: latexmath}
 
 ## Grundpotensform
 **Grundpotensform** används för att skriva mycket stora eller små tal som en produkt av ett tal mellan 1 och 10 multiplicerat med en tiopotens.
@@ -117,11 +117,11 @@ En **potens** är ett sätt att skriva tal som är upphöjda till ett visst anta
 ```latexmath
 a \times 10^n
 ```
-Där `a`$ är ett tal mellan 1 och 10, och `n`$ är ett heltal som anger tiopotensen.
+Där `a`{format: latexmath} är ett tal mellan 1 och 10, och `n`{format: latexmath} är ett heltal som anger tiopotensen.
 
 **Exempel:**
-- 5000 skrivs som `5,0 \times 10^3`$
-- 0,00042 skrivs som `4,2 \times 10^{-4}`$
+- 5000 skrivs som `5,0 \times 10^3`{format: latexmath}
+- 0,00042 skrivs som `4,2 \times 10^{-4}`{format: latexmath}
 
 ### Varför använda grundpotensform?
 Grundpotensform gör det lättare att hantera extremt stora eller små tal. Det är ett kompakt sätt att skriva tal utan att använda långa rader av siffror.
@@ -130,16 +130,16 @@ Grundpotensform gör det lättare att hantera extremt stora eller små tal. Det 
 **Prefix** förenklar tal genom att använda tiopotenser i kombination med enheter.
 
 ### Vanliga prefix:
-| **Prefix** | **Symbol** | **Faktor**      | **Exempel**         |
-|------------|------------|-----------------|---------------------|
-| Giga       | G          |  10^9           | 1 gigawatt (GW) = `10^9`$ watt |
-| Mega       | M          |  10^6           | 1 megahertz (MHz) = `10^6`$ hertz |
-| Kilo       | k          |  10^3           | 1 kilometer (km) = `10^3`$ meter |
-| Milli      | m          |  10^{-3}        | 1 millimeter (mm) = `10^{-3}`$ meter |
-| Mikro      | µ          |  10^{-6}        | 1 mikrometer (µm) = `10^{-6}`$ meter |
-| Nano       | n          |  10^{-9}        | 1 nanometer (nm) = `10^{-9}`$ meter |
+| **Prefix** | **Symbol** | **Faktor**                    | **Exempel**         |
+|------------|------------|-------------------------------|---------------------|
+| Giga       | G          |  `10^9`{format: latexmath}    | 1 gigawatt (GW) = `10^9`{format: latexmath} watt |
+| Mega       | M          |  `10^6`{format: latexmath}    | 1 megahertz (MHz) = `10^6`{format: latexmath} hertz |
+| Kilo       | k          |  `10^3`{format: latexmath}    | 1 kilometer (km) = `10^3`{format: latexmath} meter |
+| Milli      | m          |  `10^{-3}`{format: latexmath} | 1 millimeter (mm) = `10^{-3}`{format: latexmath} meter |
+| Mikro      | µ          |  `10^{-6}`{format: latexmath} | 1 mikrometer (µm) = `10^{-6}`{format: latexmath} meter |
+| Nano       | n          |  `10^{-9}`{format: latexmath} | 1 nanometer (nm) = `10^{-9}`{format: latexmath} meter |
 
 ### Exempel på användning
-- Avståndet till solen kan skrivas som `1,496 \times 10^8`$ km eller 149,6 miljoner kilometer.
-- En atomstorlek kan vara `1,2 \times 10^{-10}`$ m, eller 0,12 nanometer (nm).
+- Avståndet till solen kan skrivas som `1,496 \times 10^8`{format: latexmath} km eller 149,6 miljoner kilometer.
+- En atomstorlek kan vara `1,2 \times 10^{-10}`{format: latexmath} m, eller 0,12 nanometer (nm).
 
