@@ -73,3 +73,33 @@ Friktion är viktig för att kunna gå, köra bil eller hålla saker på plats.
 - Andra krafter som **friktion** och **normalkraft** påverkar objekts rörelse och balans.
 
 Krafter kan förklaras och visualiseras med hjälp av **vektorer**, och deras samverkan avgör hur objekt rör sig eller förblir i vila.
+
+
+# Resultant
+
+Resultanten är den totala kraften eller vektorn som erhålls när flera krafter eller vektorer kombineras. När vi har flera krafter som verkar på ett objekt, kan vi ersätta dessa krafter med en enda kraft, som kallas **resultant**.
+
+För att beräkna resultanten av två krafter som inte verkar längs samma linje, använder vi ofta den så kallade parallellogrammetoden eller triangelmetoden.
+
+## Exempel på beräkning av resultant
+
+Anta att vi har två krafter, `F_1`{format: latexmath} och `F_2`{format: latexmath} , som verkar på ett objekt i olika riktningar. Om dessa krafter inte är parallella, kan vi använda vektoralgebra för att hitta deras resultant.
+
+### Resultant i två dimensioner
+
+Om `F_1`{format: latexmath} och `F_2`{format: latexmath} har komponenterna `F_{1x}`{format: latexmath}, `F_{1y}`{format: latexmath}, `F_{2x}`{format: latexmath}, och `F_{2y}`{format: latexmath} , så kan vi beräkna komponenterna för resultanten `R`{format: latexmath} genom att addera respektive komponenter:
+
+`R_x = F_{1x} + F_{2x}`{format: latexmath}  
+`R_y = F_{1y} + F_{2y}`{format: latexmath}
+
+### Storleken på resultanten
+
+Storleken på resultanten kan vi beräkna med Pythagoras sats om vi känner till dess komponenter:
+
+`R = \sqrt{R_x^2 + R_y^2}`{format: latexmath}
+
+### Vinkeln för resultanten
+
+Vinkeln som resultanten bildar med `x`-axeln kan vi beräkna med hjälp av tangens:
+
+`\theta = \tan^{-1} \left( \frac{R_y}{R_x} \right)`{format: latexmath}
