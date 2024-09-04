@@ -8,28 +8,28 @@ En **storhet** är något som går att mäta, exempelvis längd, tid eller massa
 ## Grundenheter i SI-systemet
 | **Storhet**         | **Enhet**    | **Enhetsbeteckning** | **Storhetsbeteckning** |
 |---------------------|--------------|----------------------|------------------------|
-| Längd               | Meter        | m                    | l                      |
-| Massa               | Kilogram     | kg                   | m                      |
-| Tid                 | Sekund       | s                    | t                      |
-| Elektrisk ström     | Ampere       | A                    | I                      |
-| Termodynamisk temperatur | Kelvin    | K                    | T                      |
-| Ämnesmängd          | Mol          | mol                  | n                      |
-| Ljusstyrka          | Candela      | cd                   | Iv                     |
+| Längd               | Meter        | m                    | `l`$                   |
+| Massa               | Kilogram     | kg                   | `m`$                   |
+| Tid                 | Sekund       | s                    | `t`$                   |
+| Elektrisk ström     | Ampere       | A                    | `I`$                   |
+| Temperatur          | Kelvin       | K                    | `T`$                   |
+| Ämnesmängd          | Mol          | mol                  | `n`$                   |
+| Ljusstyrka          | Candela      | cd                   | `L`$                   |
 
 ## Härledda enheter
 De härledda enheterna bygger på kombinationer av grundenheterna. Här är några av de vanligaste härledda enheterna och deras beteckningar:
 
 | **Storhet**         | **Enhet**        | **Enhetsbeteckning** | **Storhetsbeteckning** |
 |---------------------|------------------|----------------------|------------------------|
-| Hastighet           | Meter per sekund | m/s                  | v                      |
-| Acceleration        | Meter per sekundkvadrat | m/s²            | a                      |
-| Kraft               | Newton           | N = kg·m/s²          | F                      |
-| Energi              | Joule            | J = N·m = kg·m²/s²   | E                      |
-| Effekt              | Watt             | W = J/s = kg·m²/s³   | P                      |
-| Tryck               | Pascal           | Pa = N/m² = kg/m·s²  | p                      |
-| Laddning            | Coulomb          | C = A·s              | Q                      |
-| Spänning            | Volt             | V = W/A = kg·m²/s³·A | U eller V              |
-| Resistans           | Ohm              | Ω = V/A = kg·m²/s³·A²| R                      |
+| Hastighet           | Meter per sekund | m/s                  | `v`$                   |
+| Acceleration        | Meter per sekundkvadrat | m/s²          | `a`$                   |
+| Kraft               | Newton           | N = kg·m/s²          | `F`$                   |
+| Energi              | Joule            | J = N·m = kg·m²/s²   | `E`$                   |
+| Effekt              | Watt             | W = J/s = kg·m²/s³   | `P`$                   |
+| Tryck               | Pascal           | Pa = N/m² = kg/m·s²  | `p`$                   |
+| Laddning            | Coulomb          | C = A·s              | `Q`$                   |
+| Spänning            | Volt             | V = W/A = kg·m²/s³·A | `U`$ eller `V`$        |
+| Resistans           | Ohm              | Ω = V/A = kg·m²/s³·A²| `R`$                   |
 
 
 ### Skillnaden mellan enhetsbeteckning och storhetsbeteckning
@@ -107,21 +107,21 @@ För att enkelt hantera mycket stora eller små tal använder vi ofta **potenser
 En **potens** är ett sätt att skriva tal som är upphöjda till ett visst antal gånger. Exponenterna visar hur många gånger vi ska multiplicera ett tal med sig självt.
 
 **Exempel på potenser:**
-- \( 10^3 = 10 \times 10 \times 10 = 1000 \)
-- \( 10^{-2} = 1/(10 \times 10) = 0,01 \)
+- `10^3 = 10 \times 10 \times 10 = 1000`$
+- `10^{-2} = 1/(10 \times 10) = 0,01`$
 
 ## Grundpotensform
 **Grundpotensform** används för att skriva mycket stora eller små tal som en produkt av ett tal mellan 1 och 10 multiplicerat med en tiopotens.
 
 **Form:**
-\[
+```latexmath
 a \times 10^n
-\]
-Där \(a\) är ett tal mellan 1 och 10, och \(n\) är ett heltal som anger tiopotensen.
+```
+Där `a`$ är ett tal mellan 1 och 10, och `n`$ är ett heltal som anger tiopotensen.
 
 **Exempel:**
-- 5000 skrivs som \( 5,0 \times 10^3 \)
-- 0,00042 skrivs som \( 4,2 \times 10^{-4} \)
+- 5000 skrivs som `5,0 \times 10^3`$
+- 0,00042 skrivs som `4,2 \times 10^{-4}`$
 
 ### Varför använda grundpotensform?
 Grundpotensform gör det lättare att hantera extremt stora eller små tal. Det är ett kompakt sätt att skriva tal utan att använda långa rader av siffror.
@@ -132,14 +132,14 @@ Grundpotensform gör det lättare att hantera extremt stora eller små tal. Det 
 ### Vanliga prefix:
 | **Prefix** | **Symbol** | **Faktor**      | **Exempel**         |
 |------------|------------|-----------------|---------------------|
-| Giga       | G          | \( 10^9 \)      | 1 gigawatt (GW) = \( 10^9 \) watt |
-| Mega       | M          | \( 10^6 \)      | 1 megahertz (MHz) = \( 10^6 \) hertz |
-| Kilo       | k          | \( 10^3 \)      | 1 kilometer (km) = \( 10^3 \) meter |
-| Milli      | m          | \( 10^{-3} \)   | 1 millimeter (mm) = \( 10^{-3} \) meter |
-| Mikro      | µ          | \( 10^{-6} \)   | 1 mikrometer (µm) = \( 10^{-6} \) meter |
-| Nano       | n          | \( 10^{-9} \)   | 1 nanometer (nm) = \( 10^{-9} \) meter |
+| Giga       | G          | `10^9`$         | 1 gigawatt (GW) = `10^9`$ watt |
+| Mega       | M          | `10^6`$         | 1 megahertz (MHz) = `10^6`$ hertz |
+| Kilo       | k          | `10^3`$         | 1 kilometer (km) = `10^3`$ meter |
+| Milli      | m          | `10^{-3}`$      | 1 millimeter (mm) = `10^{-3}`$ meter |
+| Mikro      | µ          | `10^{-6}`$      | 1 mikrometer (µm) = `10^{-6}`$ meter |
+| Nano       | n          | `10^{-9}`$      | 1 nanometer (nm) = `10^{-9}`$ meter |
 
 ### Exempel på användning
-- Avståndet till solen kan skrivas som \( 1,496 \times 10^8 \) km eller 149,6 miljoner kilometer.
-- En atomstorlek kan vara \( 1,2 \times 10^{-10} \) m, eller 0,12 nanometer (nm).
+- Avståndet till solen kan skrivas som `1,496 \times 10^8`$ km eller 149,6 miljoner kilometer.
+- En atomstorlek kan vara `1,2 \times 10^{-10}`$ m, eller 0,12 nanometer (nm).
 
